@@ -1,5 +1,6 @@
 package com.nt.main;
 
+import com.nt.nb.NetBankingService;
 import com.nt.service.ArithmeticOperations;
 import com.nt.upi.UPIPayment;
 
@@ -16,6 +17,10 @@ public class AppTest {
 		
 		System.out.println("===========================");
 		System.out.println(upi.doUPIPaymentByAcno(9658741235L, 896570));
+		
+		System.out.println("===========================");
+		NetBankingService net = new NetBankingService();
+		System.out.println(net.transferMoney(9874563L, 123654789L, 568497));
 	}
 
 }
