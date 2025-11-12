@@ -6,7 +6,8 @@ public class AppTest {
 
 	public static void main(String[] args) {
 		ArithmeticOperations arth = new ArithmeticOperations();
-		System.out.println(arth.sum(10, 30));
+		System.out.println("Result sum is : "+arth.sum(10, 30));
+		System.out.println("Result sub is : "+arth.sub(70, 20));
 	}
 
 }
