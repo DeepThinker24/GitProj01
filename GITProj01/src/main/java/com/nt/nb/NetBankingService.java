@@ -1,5 +1,7 @@
 package com.nt.nb;
 
+import java.util.Random;
+
 public class NetBankingService {
 	// for net banking
 	public String transferMoney(long srcAcc, long destAcc, double amt, String gateway) {
@@ -9,6 +11,7 @@ public class NetBankingService {
 	
 	public float getBalance() {
 		// write logic (incomplete)
-		return 0.0f;
+		float balance = new Random().nextInt(10000000);
+		return balance;
 	}
 }
