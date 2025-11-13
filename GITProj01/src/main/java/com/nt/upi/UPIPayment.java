@@ -7,4 +7,7 @@ public class UPIPayment {
 	public String doUPIPaymentByAcno(long acno, double amount) {
 		return amount+" amount is transfered to account number :: "+acno+" using BharatPay";
 	}
+	public String doUPIPaymentByUpiId(long acno, double amount) {
+		return amount+" amount is transfered to UPI id :: "+acno+" using BharatPay";
+	}
 }
