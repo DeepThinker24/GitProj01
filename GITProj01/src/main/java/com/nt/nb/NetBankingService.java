@@ -6,4 +6,9 @@ public class NetBankingService {
 		System.out.println("NetBankingService.transferMoney()");
 		return amt+" amount is transfer from Acc. No-"+srcAcc+" to Acc. No-"+destAcc+" using GateWay "+gateway;
 	}
+	
+	public float getBalance() {
+		// write logic (incomplete)
+		return 0.0f;
+	}
 }
