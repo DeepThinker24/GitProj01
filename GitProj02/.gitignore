@@ -1,0 +1,91 @@
+############################
+# Eclipse specific files
+############################
+.classpath
+.project
+.settings/
+.loadpath
+
+# Eclipse working directories
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+############################
+# Maven specific files
+############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.properties
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+############################
+# Java specific files
+############################
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Compiled source #
+###################
+*.com
+*.dll
+*.exe
+*.o
+*.so
+
+############################
+# IDE files (general)
+############################
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+############################
+# Logs, OS, and misc files
+############################
+*.log
+*.ctxt
+*.err
+*.out
+
+# Mac and Windows files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################
+# Others
+############################
+# If using Lombok
+lombok.config
+
+# If using Spring Boot devtools
+.spring-boot-devtools.properties
+
+# If using environment files
+.env
